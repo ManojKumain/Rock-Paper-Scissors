@@ -8,3 +8,12 @@ function getComputerChoice() {
 const computerChoice = getComputerChoice();
 console.log(computerChoice);
 
+
+// Step 2: Writing a function to get human choice
+function getHumanChoice() {
+    const choose = prompt("Enter your Choice");
+    return choose;
+}
+
+const humanChoice = getHumanChoice();
+console.log(humanChoice);
